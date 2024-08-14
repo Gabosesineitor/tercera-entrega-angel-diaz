@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Montserrat;    
+}
+
+header {
+    background-color: #000218;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10rem;
+    padding: 37px 0px 0px 132px;
+}
+
+.Logo-Marvel {
+width: 211.02px ;
+}
+
+.banner {
+   background-color: #000218;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.texto-banner{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+h1{
+ color: white;
+ font-weight: 700;
+ font-size: 58px; 
+ line-height: 80px;
+ letter-spacing: 0.2;
+ padding-bottom: 30px;
+    
+}
+
+.secundario-banner{
+color: white;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.2px;
+padding-bottom: 30px;
+
+}
+
+.principal {
+  color: white;
+  background-color: #E74040 ; 
+  width: 119px;
+  height: 52px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  padding-right: 10px;
+}
+
+.secundario {
+background-color: transparent;
+color: #E74040;
+border: 1px;
+border-color: #E74040;
+border-style: solid;
+width: 167px;
+height: 52px;
+border-radius: 5px;
+font-size: 14px;
+font-weight: 700;
+line-height: 22px;
+}
+
+.imagen-banner{
+width: 40%;
+
+}
+.guante{
+    width: 100%;
+}
+
+.heroes {
+    width: 100%;
+    height: 718px;
+    background-color:#CDCDD233;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.texto-h3{
+    width: 75%;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+}
+
+h3{
+    color:#252B42 ;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 80px;
+}
+
+.content-heroes{
+   width: 80%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: flex-start;
+   justify-content: center;
+}
+
+.caja-heroe{
+    width: 328px;
+    background-color:white ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.26);
+    margin-right: 30px;
+}
+
+.img-hero{
+    width: 72px;
+    height: 72px;
+  border-radius: 80px;
+  margin: 35px 215.5px 0px 40.5px;  
+}
+
+.hero-name{
+  color: #252B42;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0px 0px 0px 40.5px;
+}
+
+.divisor-heroe{
+ color:#E74040 ;   
+ background-color: #E74040;
+ width: 50px;
+ height: 2px;
+ margin: 0px 0px 0px 40.5px;
+}
+
+.descripcion{
+width: 75%;
+color: #737373;    
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+margin: 0px 0px 35px 40.5px;
+}
+
+.Partner {
+    background-color: #000;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+color: white;
+font-weight: 700;
+font-size: 64px;
+line-height: 75px;
+}
+
+.subtitulo{
+color: white;
+font-weight: 400;
+font-size: 48px;
+line-height: 56.25px;
+margin-bottom: 74px;
+}
+
+.content-partner{
+ width: 80%;
+ display: flex;
+ flex-direction: row; 
+ justify-content: center;
+}
+
+.img-partner{
+ margin: 0px 51px 157px 0px;   
+}
+
+.footer{
+ width: 100%;
+ height: 74px;
+ background-color:#323030 ;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ align-items: center;
+}
+
+.text-footer{
+color: white;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+}
+
+.red-social{
+    margin-right: 20px;
+}
+
+@media (max-width: 480px) {
+    .footer {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    .Partner{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px 20px 0px 20px;
+    }
+    .content-partner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    .img-partner{
+        display: flex;
+        justify-content: center;
+        margin: 0px 0px 0px 0px;   
+       }
+    .subtitulo{
+        margin-bottom: 20px;
+    }
+    .heroes{
+        width: 100%;
+        height: 1200px;
+        display: flex;
+        justify-content: center;
+    }
+    .content-heroes{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .caja-heroe{
+        margin: 0px;
+    }
+    h3{
+        margin: 0px 0px 30px 0px;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    h1{
+color: white;
+ font-weight: 700;
+ font-size: 48px; 
+ line-height: 60px;
+ letter-spacing: 0.2;
+ padding-bottom: 30px;
+    }
+    
+.texto-banner{
+    width: 80%;
+}
+
+header{
+    justify-content: center;
+    padding: 40px 0px 0px 0px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+
+    .Partner{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px 20px 0px 20px;
+    }
+    .subtitulo{
+        margin-bottom: 10px;
+    }
+
+    .content-partner{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .heroes{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content-heroes{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .caja-heroe{
+        margin: 0px;
+    }
+
+    .texto-h3{
+        width: 90%;
+        justify-content: center;
+    }
+
+    h3{
+        text-align: center;
+        margin: 0px 0px 30px 0px;
+    }
+
+    h2{
+        color: white;
+        text-align: center;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 75px;
+        }
+
+    .banner{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    header{
+        justify-content: center;
+        padding: 40px 0px 0px 0px;
+    }
+}
